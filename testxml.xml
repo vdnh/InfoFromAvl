@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<monitoringresponse>
+	<units count="2">
+		<unit>
+			<id>1568</id>
+			<name>Voiture de John</name>
+			<driverName>John Doe</driverName>
+			<timestamp>2011-09-06 15:45:21</timestamp>
+			<latitude>45.18416159</latitude>
+			<longitude>-71.4578156</longitude>
+			<direction>68</direction>
+			<speed>0</speed>
+			<odometer>123745</odometer>
+			<landmark>
+				<name>Home</name>
+				<address>1234 Main, Montreal, Qc</address>
+			</landmark>
+		</unit>
+		<unit>
+			<id>2858</id>
+			<name>Camion de Bob</name>
+			<driverName>Bob Smith</driverName>
+			<timestamp>2011-09-05 16:12:01</timestamp>
+			<latitude>46.3242334</latitude>
+			<longitude>-70.890480447</longitude>
+			<direction>292</direction>
+			<speed>96</speed>
+			<odometer>84638</odometer>
+		</unit>
+	</units>
+</monitoringresponse>

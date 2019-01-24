@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<employees>
+    <employee id="111">
+        <firstName>Lokesh</firstName>
+        <lastName>Gupta</lastName>
+        <location>India</location>
+    </employee>
+    <employee id="222">
+        <firstName>Alex</firstName>
+        <lastName>Gussin</lastName>
+        <location>Russia</location>
+    </employee>
+    <employee id="333">
+        <firstName>David</firstName>
+        <lastName>Feezor</lastName>
+        <location>USA</location>
+    </employee>
+</employees>
