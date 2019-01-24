@@ -49,12 +49,18 @@ public class ParseKnownXMLStructure {
 		 if (node.getNodeType() == Node.ELEMENT_NODE)
 		 {
 		    //Print each employee's detail
+                     UniteInfos ui = new UniteInfos();
 		    Element eElement = (Element) node;
-		    System.out.println("Unit id : "    + eElement.getElementsByTagName("id").item(0).getTextContent());
-		    System.out.println("Name : "  + eElement.getElementsByTagName("name").item(0).getTextContent());
+		    System.out.println("Unite id : "    + eElement.getElementsByTagName("id").item(0).getTextContent());		    
 		    System.out.println("odometer : "   + eElement.getElementsByTagName("odometer").item(0).getTextContent());
-		    System.out.println("Speed : "    + eElement.getElementsByTagName("speed").item(0).getTextContent());
-		 }
+                    System.out.println("Latitude : "  + eElement.getElementsByTagName("latitude").item(0).getTextContent());
+		    System.out.println("Longtitude : "    + eElement.getElementsByTagName("longitude").item(0).getTextContent());
+                    ui.setUnite(eElement.getElementsByTagName("id").item(0).getTextContent());
+                    ui.setOdometer(eElement.getElementsByTagName("odometer").item(0).getTextContent());
+                    ui.setLatitude(eElement.getElementsByTagName("latitude").item(0).getTextContent());
+                    ui.setLongitude(eElement.getElementsByTagName("longitude").item(0).getTextContent());
+                     System.out.println("ui data : "+ ui.toString());
+                 }
 		}	//*/	 		
 	}
 }
