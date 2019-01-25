@@ -23,8 +23,9 @@ public class ParseKnownXMLStructure {
 		//Get Docuemnt Builder
 		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 		DocumentBuilder builder = factory.newDocumentBuilder();
-                  //*
-                  URL url = new URL("file:///C:/CTS/test/testxml.xml");
+                  //* 
+                  //URL url = new URL("file:///C:/CTS/test/testxml.xml");
+                  URL url = new URL("file:///C:/CTS/test/monitoring.cfm.xml");
                   InputStream is = url.openStream();
                   int ptr = 0;
                   StringBuffer buffer = new StringBuffer();
